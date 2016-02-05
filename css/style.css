@@ -1,127 +1,68 @@
-/*******************************************
-General Styles
- ******************************************/
-
- body 
-{
-margin: 0;
+body {
+	padding-top: 50px;
 }
 
-/*******************************************
- Homepage Banner
- ******************************************/
- .banner 
- {
-position: relative;
-overflow: hidden;
-min-height: 660px;
- }
-
-.banner-content
-{
-	position: relative;
+.em-text {
+	color: #1caa98 !important;
 }
 
+.jumbotron {
+	background: url(../img/che-jumbotron.jpeg) no-repeat center center fixed;
+	 -webkit-background-size: cover;
+  	 -moz-background-size: cover;
+  	 -o-background-size: cover;
+     background-size: cover;
+     height: 500px;
+     overflow: none;
+}
 
+.jumbotron h1 {
+	margin-top: 60px;
+}
 
-/*******************************************
-  Video Container            
- ******************************************/
- .video-container 
- {
-	position:absolute;
-	top:0;
-	left:0;
+.jumbotron p {
+	margin-bottom: 40px;
+}
+
+.transparent {
+	background-color: rgba(255,255,255, 0.5);
+	border-radius: 1%;
+}
+
+img.demo {
 	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	background: url(../media/Cut-n-Paste.jpg);
-	background-size: cover;
- }
-
- /*******************************************
-  Video Element            
- ******************************************/
- .video-container video 
- {
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	min-height: 100%;
- 	min-width: 100%;
- }
-
-  /*******************************************
-  Video Mask
- ******************************************/
- .video-mask
- {
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	min-height: 100%;
- 	min-width: 100%;
- 	background-color: #000;
- 	opacity: .1;
- }
-
-
- /*=============================================================================================================
-  Media Query for Mobile PHone
- ===============================================================================================================*/
-@media screen and (max-width: 400px) {
-
-/*******************************************
- Homepage Banner
- ******************************************/
- .banner 
- {
-position: relative;
-overflow: hidden;
-min-height: 400px;
- }
-
-.banner-content
-{
-	position: relative;
+	padding: 3px;
+	border: 1px solid grey;
 }
 
+section#feature {
+	background: #1caa98;
+	color: #fff;
+	padding: 40px
+}
 
+section#feature ul li {
+	font-size: 22px;
+	list-style: none;
+	line-height: 2.0em;
+}
 
-/*******************************************
-  Video Container            
- ******************************************/
- .video-container 
- {
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 30px 0 20px 0;
+}
 
- }
+footer li {
+	float:left;
+	padding: 0 10px 0 10px;
+	list-style: none;
+}
 
- /*******************************************
-  Video Element            
- ******************************************/
- .video-container video 
- {
- 	background:url(../media/Cut-n-Paste.jpg);
-	background-position: cover;
- }
+footer a {
+	color: #fff;
+}
 
-  /*******************************************
-  Video Mask
- ******************************************/
- .video-mask
- {
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	min-height: 100%;
- 	min-width: 100%;
- 	background-color: #000;
- 	opacity: .1;
- }
-
-
-
-
-
-
+footer p {
+	float: right;
 }
